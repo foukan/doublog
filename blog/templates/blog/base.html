@@ -1,0 +1,33 @@
+{% load static %}
+<html>
+
+<head>
+    <title>Dou Blogu</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Special+Elite&display=swap" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+</head>
+
+<body>
+    <div class="page-header">
+        <h1><a href="/">Dou Blogu</a></h1>
+    </div>
+    <div class="content container">
+    <div class="row">
+            <div class="col-md-8">
+                {% for post in posts %}
+                    <div class="post">
+                         <div class="date">
+                          <p>Yayın tarihi: {{ post.published_date }}</p>
+                         </div>
+                     <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
+                     <p>{{ post.text|linebreaksbr }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
