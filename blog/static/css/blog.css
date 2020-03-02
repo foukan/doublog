@@ -1,19 +1,23 @@
-
 .page-header {
     background-color: #3e4957;
     margin-top: 0;
-    padding: 2rem 2rem 2rem 1rem;
-    font-family: 'Fredericka the Great' ;
+    padding: 1rem 2rem 2rem 2rem;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
+    font-family: 'Fredericka the Great' ;
 }
 
 .content {
-    margin-left: 4rem;
+    margin-left: 40px;
+}
+
+h1, h2, h3, h4 {
+    
+    
 }
 
 .date {
@@ -33,13 +37,35 @@
     float: right;
     font-size: 26pt;
     margin-right: 20px;
+    margin-top: 2.5rem;
+}
+
+#yaz{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#yaz, #yaz:visited{
+    color: black; 
+    font-family: Arial, Helvetica, sans-serif;  
+}
+/#baslik{
+    color: #3e4957;
+    font-family: 'Special Elite' ;
+}
+
+#baslik, #baslik:visited{
+     color: #3e4957;
+    font-family: 'Special Elite' ;
 }
 
 .post {
+    color: black;
     margin-bottom: 70px;
+    
+
 }
 
 .post h1 a, .post h1 a:visited {
-    font-family: 'Special Elite' ;
     color: #3e4957;
+    font-family: 'Special Elite' ;
 }
