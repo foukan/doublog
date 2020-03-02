@@ -1,23 +1,18 @@
 .page-header {
     background-color: #3e4957;
     margin-top: 0;
-    padding: 1rem 2rem 2rem 2rem;
+    padding: 0.5rem 1rem 1.5rem 2rem;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
-    font-size: 36pt;
+    font-size: 38pt;
     text-decoration: none;
     font-family: 'Fredericka the Great' ;
 }
 
 .content {
-    margin-left: 40px;
-}
-
-h1, h2, h3, h4 {
-    
-    
+    margin-left: 4rem;
 }
 
 .date {
@@ -35,9 +30,9 @@ h1, h2, h3, h4 {
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
     float: right;
-    font-size: 26pt;
-    margin-right: 20px;
-    margin-top: 2.5rem;
+    font-size: 20pt;
+    margin-right: 2rem;
+    margin-top: 3.5rem;
 }
 
 #yaz{
@@ -48,7 +43,7 @@ h1, h2, h3, h4 {
     color: black; 
     font-family: Arial, Helvetica, sans-serif;  
 }
-/#baslik{
+#baslik{
     color: #3e4957;
     font-family: 'Special Elite' ;
 }
@@ -60,7 +55,7 @@ h1, h2, h3, h4 {
 
 .post {
     color: black;
-    margin-bottom: 70px;
+    margin-bottom: 7rem;
     
 
 }
